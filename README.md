@@ -1,6 +1,6 @@
 ## JavaStudy
 1. 자료형
-2. Casting(클래스형변환)
+2. Casting
 3. final, static
 4. if(), switch()
 5. for(), while(), do-while()
