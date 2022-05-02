@@ -1,4 +1,4 @@
-### JavaStudy
+## JavaStudy
 1. 자료형
 2. Casting(클래스형변환)
 3. final, static
