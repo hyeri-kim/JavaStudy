@@ -18,9 +18,9 @@
 
 `(자료형)값` 값을 자료형으로 바꾼다.
 ```java
-	int a;
-	byte b;
-	b = (byte) a;
+int a;
+byte b;
+b = (byte) a;
 ```
 ```java
 // 강제 형변환(Casting)
