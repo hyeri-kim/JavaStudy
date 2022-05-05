@@ -1,4 +1,4 @@
-> **인터페이스**
+## 인터페이스
 > 
 
 추상 클래스를 고도화 시킨 문법
@@ -111,6 +111,68 @@ public abstract class PhoneAdapter implements Phone {
 	public void useInternet() {
 		// TODO Auto-generated method stub
 
+	}
+}
+```
+## Marker Interface
+
+클래스들의 공통 그룹명으로 인터페이스를 생성하고 아무것도 구현해놓지 않는다.
+
+즉, 그 클래스들이 같은 그룹으로 묶였다는 표시를 하기 위해 사용한다.
+
+```java
+package marker;
+// Marker Interface
+public interface Animation {}
+```
+
+```java
+package marker;
+
+public class Digimon implements Animation{}
+```
+
+```java
+package marker;
+
+public class PokeMon implements Animation{}
+```
+
+```java
+package marker;
+
+public class ZzangGu implements Animation{}
+```
+
+```java
+package marker;
+
+public class HarryPotter {}
+```
+
+```java
+package marker;
+
+public class Check {
+	public static void main(String[] args) {
+		Digimon d = new Digimon();
+		PokeMon p = new PokeMon();
+		ZzangGu z = new ZzangGu();
+		HarryPotter h = new HarryPotter();
+		
+		//각각 다 검사해줌
+		if(d instanceof Animation) {
+			System.out.println("디지몬은 애니메이션입니다.");
+		}
+		if(p instanceof Animation) {
+			System.out.println("포켓몬은 애니메이션입니다.");
+		}
+		if(z instanceof Animation) {
+			System.out.println("짱구는 애니메이션입니다.");
+		}
+		if(!(h instanceof Animation)) {
+			System.out.println("해리포터는 애니메이션이 아닙니다.");
+		}
 	}
 }
 ```
