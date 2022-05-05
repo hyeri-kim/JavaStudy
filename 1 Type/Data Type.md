@@ -1,4 +1,4 @@
-# 1. Data Type
+# 자료형
 
 <aside>
 🔸 자료형의 종류와 특징
@@ -11,7 +11,7 @@
 - 변수(Variable) : 값을 담기 위한 저장 공간
 - 자료형(Data Type) : 데이터의 형태
 
-### **기본 자료형 Primitive Type**
+## **기본 자료형 Primitive Type**
 
 - 기본 자료형은 반드시 사용하기 전에 선언이 되어야 한다.
 - OS에 따라 자료형의 길이가 변하지 않는다.
@@ -33,7 +33,7 @@
 - `.add()`, `.subtract()`, `.multiply()`, `.divide()` 메소드가 제공된다.
 - 매개변수 또한 BigInteger를 받는다.
 
-### **참조 자료형** **Reference Type**
+## **참조 자료형** **Reference Type**
 
 기본 자료형을 제외한 모든 데이터 유형이다.
 
