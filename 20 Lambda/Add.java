@@ -2,7 +2,7 @@ interface Compare{
     public int compareTo(int a, int b);
 }
 
-public class Ramda2 {
+public class Add {
     //람다식 문법 (매개변수 목록)->{실행문}
     public static void exec(Compare com) {
         int k = 10;
